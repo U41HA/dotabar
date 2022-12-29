@@ -1,0 +1,13 @@
+
+@mixin fontTrajan($size, $weight:bold, $height:120%) {
+    font-family: 'Trajan', sans-serif;
+    font-size: $size;
+    font-weight: $weight;
+    line-height: $height;
+};
+@mixin fontNunito($size, $weight:500, $height:120%) {
+    font-family: 'Nunito', sans-serif;
+    font-size: $size;
+    font-weight: $weight;
+    line-height: $height;
+};
